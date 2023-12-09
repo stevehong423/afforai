@@ -1,0 +1,15 @@
+.highlight {
+    height: 26px;
+    border: #C0c0c0 solid 1px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 13px;
+}
+
+button {
+    background: white;
+    background-color: white;
+}

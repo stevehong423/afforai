@@ -1,0 +1,61 @@
+.navbar {
+    height: 58px;
+    width: 80%;
+    background: white;
+    border: 1px rgb(210, 207, 207) solid;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    position: fixed;
+    top: 0;
+    z-index: 1
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.logo-icon {
+    height: 24px;
+    width: 24px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+  }
+  
+.nav-item {
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    background: white
+}
+
+.btn {
+    text-transform: unset;
+    height: 33px;
+    width: 74px;
+    color: #525252;
+    background-color: #f5f5f5;
+    margin-right: 10px;
+    border: #e6e6e6 solid 1px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+  
+.gradient-btn {
+    background: linear-gradient(135deg,#6004ff,#7f35ff 23.95%,#370097 60.11%,#8d4aff);;
+    height: 33px;
+    width: 108px;
+    margin-left: 1;
+    color: white;
+    border-radius: 10px;
+}
