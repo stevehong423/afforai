@@ -1,6 +1,6 @@
 # Afforai Landing Page (Steve Hong)
 
-In the project directory, you can run:
+In the project directory, after cloning this project and opening it in VSCode, you can run:
 
 ### `npm install`
 ### `npm start`
