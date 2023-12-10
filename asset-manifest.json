@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/afforai/static/css/main.affa4f8f.css",
+    "main.js": "/afforai/static/js/main.29d89bdb.js",
+    "index.html": "/afforai/index.html",
+    "main.affa4f8f.css.map": "/afforai/static/css/main.affa4f8f.css.map",
+    "main.29d89bdb.js.map": "/afforai/static/js/main.29d89bdb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.affa4f8f.css",
+    "static/js/main.29d89bdb.js"
+  ]
+}
