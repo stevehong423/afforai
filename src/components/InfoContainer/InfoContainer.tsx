@@ -1,5 +1,6 @@
 import "./InfoContainer.css";
 import Highlights from "../Highlights/Highlights";
+// import Image from "../../";
 
 const highlights = [
   "Summarize Key Findings",
@@ -12,7 +13,11 @@ const InfoContainer = () => {
   return (
     <div className="info-container">
       <div className="app-sumo">
-        <img className="app-sumo-logo" src="/appsumo.png" alt="app-sumo-logo" />
+        <img
+          className="app-sumo-logo"
+          src={require("../../images/appsumo.png")}
+          alt="app-sumo-logo"
+        />
         <h5>Now on AppSumo</h5>
         <div className="inner-app-sumo">Get Lifetime Deal &gt;</div>
       </div>

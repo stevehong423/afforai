@@ -6,7 +6,11 @@ const NavBar = () => {
   return (
     <div className="navbar">
       <div className="logo">
-        <img src="/logo-new-violet.webp" alt="logo" className="logo-icon" />
+        <img
+          src={require("../../images/logo-new-violet.webp")}
+          alt="logo"
+          className="logo-icon"
+        />
         <h5>Afforai</h5>
       </div>
 

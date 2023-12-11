@@ -6,12 +6,12 @@ const Dashboard = () => {
     <div className="user-interface">
       <div className="dashboard">
         <img
-          src="/laptop-landing-3.png"
+          src={require("../../images/laptop-landing-3.png")}
           alt="violet-gradient"
           className="violent-gradient"
         />
         <img
-          src="/dashboard.png"
+          src={require("../../images/dashboard.png")}
           alt="dashboard"
           style={{ width: "75%" }}
           className="dashboard"
@@ -22,7 +22,11 @@ const Dashboard = () => {
         <p>
           Loved by <span>20,000+</span> users around the world
         </p>
-        <img src="laptop-landing-2.png" alt="users" className="user-images" />
+        <img
+          src={require("../../images/laptop-landing-2.png")}
+          alt="users"
+          className="user-images"
+        />
       </div>
 
       <div className="afforai-features">
@@ -33,25 +37,37 @@ const Dashboard = () => {
           <p>specific questions within seconds</p>
           <ul>
             <li>
-              <img src="/check-circle.svg" alt="list-item" />A whip smart
-              research assistant
+              <img
+                src={require("../../images/greencheck.jpeg")}
+                alt="list-item"
+              />
+              A whip smart research assistant
             </li>
             <li>
-              <img src="/check-circle.svg" alt="list-item" />
+              <img
+                src={require("../../images/greencheck.jpeg")}
+                alt="list-item"
+              />
               We speak every language
             </li>
             <li>
-              <img src="/check-circle.svg" alt="list-item" />
+              <img
+                src={require("../../images/greencheck.jpeg")}
+                alt="list-item"
+              />
               Reliable data citation for answers
             </li>
             <li>
-              <img src="/check-circle.svg" alt="list-item" />
+              <img
+                src={require("../../images/greencheck.jpeg")}
+                alt="list-item"
+              />
               Fort-Knox level data security
             </li>
           </ul>
         </div>
         <img
-          src="laptop-landing-4.png"
+          src={require("../../images/laptop-landing-4.png")}
           alt="users"
           className="afforai-features-image"
         />
@@ -66,7 +82,7 @@ const Dashboard = () => {
           yourself 8 hours per week (plus a lot of headaches).
         </div>
         <img
-          src="/laptop-landing-5.png"
+          src={require("../../images/laptop-landing-5.png")}
           alt="person with afforai"
           className="afforai-image"
         />
@@ -82,7 +98,10 @@ const Dashboard = () => {
 
         <div className="image-container">
           <div className="image-card">
-            <img src="/cross-language-query.png" alt="cross-language" />
+            <img
+              src={require("../../images/cross-language-query.png")}
+              alt="cross-language"
+            />
             <div className="image-card-text-container">
               <div className="new-user-feature">
                 Cross Language Querying<div>New</div>
@@ -97,7 +116,7 @@ const Dashboard = () => {
 
           <div className="image-card">
             <img
-              src="/multiple-files-supported.png"
+              src={require("../../images/multiple-files-supported.png")}
               alt="multiple files supported"
             />
             <div className="image-card-text-container">
@@ -112,7 +131,7 @@ const Dashboard = () => {
 
           <div className="image-card">
             <img
-              src="/valuable-data-citation.png"
+              src={require("../../images/valuable-data-citation.png")}
               alt="valuable data citation"
             />
             <div className="image-card-text-container">
@@ -128,7 +147,10 @@ const Dashboard = () => {
           </div>
 
           <div className="image-card">
-            <img src="/unbreakable-security.png" alt="unbreakable security" />
+            <img
+              src={require("../../images/unbreakable-security.png")}
+              alt="unbreakable security"
+            />
             <div className="image-card-text-container">
               Unbreakable Security
               <p className="image-card-text">
@@ -141,7 +163,7 @@ const Dashboard = () => {
 
           <div className="image-card">
             <img
-              src="/builtin-document-viewer.png"
+              src={require("../../images/builtin-document-viewer.png")}
               alt="builtin document viewer"
             />
             <div className="image-card-text-container">
