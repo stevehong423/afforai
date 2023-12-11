@@ -1,5 +1,4 @@
 import "./NavBar.css";
-import Logo from "../../images/logo-new-violet.webp";
 
 const navItems = ["Affiliate", "Pricing", "Testimonials", "Help Center"];
 
@@ -7,7 +6,11 @@ const NavBar = () => {
   return (
     <div className="navbar">
       <div className="logo">
-        <img src={Logo} alt="logo" className="logo-icon" />
+        <img
+          src="https://i.postimg.cc/C5bNyGPn/logo-new-violet.webp"
+          alt="logo"
+          className="logo-icon"
+        />
         <h5>Afforai</h5>
       </div>
 
