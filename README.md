@@ -17,3 +17,6 @@ such as the FAQ section.
 I sectioned off the areas of the landing page into different components, ranging from NavBar, FAQ, Dashboard, etc.
 Thank you again!
 
+Here is the hosted link for the app: 
+https://stevehong423.github.io/afforai/
+
