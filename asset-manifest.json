@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/afforai/static/css/main.f92eaa04.css",
-    "main.js": "/afforai/static/js/main.0ade8619.js",
+    "main.css": "/afforai/static/css/main.ab310d3c.css",
+    "main.js": "/afforai/static/js/main.b8fcc23a.js",
     "index.html": "/afforai/index.html",
-    "main.f92eaa04.css.map": "/afforai/static/css/main.f92eaa04.css.map",
-    "main.0ade8619.js.map": "/afforai/static/js/main.0ade8619.js.map"
+    "main.ab310d3c.css.map": "/afforai/static/css/main.ab310d3c.css.map",
+    "main.b8fcc23a.js.map": "/afforai/static/js/main.b8fcc23a.js.map"
   },
   "entrypoints": [
-    "static/css/main.f92eaa04.css",
-    "static/js/main.0ade8619.js"
+    "static/css/main.ab310d3c.css",
+    "static/js/main.b8fcc23a.js"
   ]
 }
