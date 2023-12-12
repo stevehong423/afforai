@@ -1,4 +1,5 @@
 import FAQSection from "../FAQSection/FAQSection";
+import Reviews from "../Reviews/Reviews";
 import "./Dashboard.css";
 
 const Dashboard = () => {
@@ -176,6 +177,10 @@ const Dashboard = () => {
               </p>
             </div>
           </div>
+        </div>
+
+        <div className="reviews">
+          <Reviews />
         </div>
 
         <div className="users">

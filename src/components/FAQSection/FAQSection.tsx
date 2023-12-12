@@ -15,7 +15,7 @@ const FAQSection = () => {
       question: "Is Afforai free?",
       answer:
         "Yes, Afforai is free for all new users. Upon signing up, users are given 50 permanent credits",
-      toggle: true,
+      toggle: false,
     },
     {
       id: 2,

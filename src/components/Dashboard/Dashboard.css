@@ -34,6 +34,16 @@
     padding-top: 10%;
 }
 
+.reviews {
+    width: 100%;
+    height: 494px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+}
+
 .user-images {
     height: 48px;
     width: 336px;
